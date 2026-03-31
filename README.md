@@ -1,16 +1,18 @@
 Backend Setup
-===================
-cd backend
-npm install
 
-npm run seed (for database update and admin credential)
-==========================
+1. cd backend
+2. npm install
+3. npm run seed (for database update and admin credential)
+4. npm run dev
+
+admin credetial
+-------------------
 Email: admin@newsbite.com
 Password: admin123
-==========================
+
 
 Create .env file:
-================================
+
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/newsbite
 JWT_SECRET=your_secret_key

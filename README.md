@@ -130,11 +130,17 @@ GET /health
 
 ## ⚡ Optional
 
-Seed sample data:
+Seed database — admin user + RSS agents + sample ads:
 
 ```bash
+cd backend
 npm run seed
 ```
+
+This creates:
+- Admin login: `admin@newsbite.com` / `admin123`
+- 7 RSS feed agents (BBC, TechCrunch, Wired, etc.)
+- 3 sample ads
 
 ---
 
